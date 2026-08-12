@@ -1,0 +1,18 @@
+{
+  "api_version": "casa.persona.manifest/v1",
+  "files": [
+    {
+      "path": "persona.md",
+      "type": "file",
+      "executable": false,
+      "checksum": "sha256:a158b858f87a68ffcb08b5dad6a387c4864eb6692ece3eb297379148062ad078"
+    },
+    {
+      "path": "persona.yaml",
+      "type": "file",
+      "executable": false,
+      "checksum": "sha256:6c35605ef2e4dbc81aae494ce57630a66468812ab75509ddfa04d4f80c0b3cad"
+    }
+  ],
+  "checksum": "sha256:9f95f931739dc207065b04e7e583aff011ed4fbda3a72f799aacb58f0b5986d5"
+}

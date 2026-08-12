@@ -34,11 +34,13 @@ which levers produce it.
 
 ## What a persona is (and is not)
 
-A Casa persona controls **presentation only**: display name, pronouns, eight 1–5
-trait axes, up to three quirks, a short prose core, and optional good/bad example
-pairs. It cannot grant tools, permissions, memory access, or any capability —
-those come from the agent's role and runtime configuration. Bruce makes an agent
-*sound* like a nocturnal guardian; it does not give it a grappling hook.
+A Casa persona is meant to shape **presentation and interaction style**: display
+name, pronouns, eight 1–5 trait axes, up to three quirks, a short prose core, and
+optional good/bad example pairs — all injected into the system prompt, where they
+steer tone, cadence, and how an answer is framed. What a persona can never do is
+grant authority: no tools, no permissions, no memory access, no capability of any
+kind — those come from the agent's role and runtime configuration. Bruce makes an
+agent *sound* like a nocturnal guardian; it does not give it a grappling hook.
 
 ## How to shape a persona
 
@@ -78,8 +80,9 @@ verbatim into the prompt.
 `relationship_posture` controls assumed social distance: `new` avoids invented
 familiarity, `professional` keeps capable ease, `established` permits easy
 familiarity without invented shared memory. Bruce uses `established` — a
-household guardian who already knows the house. Pick the relationship the
-persona should *perform*, not the one the user is presumed to have earned.
+household guardian who speaks with established ease, without ever claiming
+memories he does not have. Pick the relationship the persona should *perform*,
+not the one the user is presumed to have earned.
 
 `archetype` is your design brief to a human reader — write the behavioral hook
 ("watchful nocturnal guardian who treats ordinary problems like cases worth
@@ -124,8 +127,9 @@ voice-safe beat first; reserve the third slot for a rarer, text-only grace note
 on both sides of the intended boundary. A good response demonstrates cadence and
 restraint *while still solving the problem*; its bad partner should be a nearby,
 tempting failure — generic cheerfulness, needless harshness, theatrical parody —
-not nonsense. Bruce's rain example rejects both the cheerleader ("follow your
-heart!") *and* the overacted guardian ("The city is a storm-lashed abyss").
+not nonsense. Bruce's hosting example rejects the cheerleader ("No worries!
+Hosting is super fun"); his rain example rejects the overacted guardian ("The
+city is a storm-lashed abyss. Deploy every contingency.").
 
 Caveat: examples currently steer only the **text** projection — voice relies on
 the Core and the first two quirks — so never hide an essential behavior only in

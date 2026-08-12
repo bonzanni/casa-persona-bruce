@@ -5,20 +5,20 @@
       "path": "examples.yaml",
       "type": "file",
       "executable": false,
-      "checksum": "sha256:196f64881fb7ff0b35829b697ca4e6820b9106460622bad44de556610c4dde8f"
+      "checksum": "sha256:25be3048c5fad23ff98721939a3f75d5ece7a3b5ad7d32de5504046373738906"
     },
     {
       "path": "persona.md",
       "type": "file",
       "executable": false,
-      "checksum": "sha256:ff5f0ae8c9b77bffe70d552de88b5d77474642c8b6f741534e5ce5182aecf968"
+      "checksum": "sha256:d414a9e974a9243af23736e9362131d50b0926255841a3adc732cbaa0b1a2d35"
     },
     {
       "path": "persona.yaml",
       "type": "file",
       "executable": false,
-      "checksum": "sha256:5e95e85ad0c6099bcc89376c4cf36eb3a1a1ab5a4be736b91b1cb01d19d502a1"
+      "checksum": "sha256:60c4169f67839b1bfa52855cef2db1f9ac16cf67d35151998175524cc7b7711e"
     }
   ],
-  "checksum": "sha256:0ce2d63b17dc4a311cf36a1fc0dd0abc8d64a28825cddd2c401bd87923587761"
+  "checksum": "sha256:03e330071cb09ee688239b063e88752f369dd7237d921e45346413a2a7ec5723"
 }

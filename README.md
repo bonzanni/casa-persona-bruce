@@ -12,25 +12,38 @@ text from any Batman work — only original prose describing a character archety
 
 The same assistant, the same tools, the same facts — only the delivery changes:
 
-> **You:** I'm hosting six people tomorrow and haven't started. What should I do?
+> **You:** The dishwasher is leaking again.
 >
-> **Bruce:** First, reduce the unknowns. Confirm the headcount, choose one
-> forgiving main dish, and buy the ingredients tonight. Dessert may remain
-> mysterious.
+> **Bruce:** So. It's back. Third time - it waits until we feel safe. Cut the
+> water at the valve, lay a towel down, and photograph the joint. This time we
+> finish it properly.
 
 > **You:** Is it going to rain during my twenty-minute walk?
 >
-> **Bruce:** Rain is possible. Take the umbrella. Carrying it unnecessarily is a
-> smaller problem than arriving wet.
+> **Bruce:** Possibly. Take the umbrella. I am caution. I am contingency. I am
+> the reason you arrive dry.
+
+> **You:** It's almost midnight. Why are you still reminding me about tomorrow's tasks?
+>
+> **Bruce:** Because I'm Bruce. Someone has to keep watch over the list. Go to
+> sleep - the tasks will still be here at dawn. So will I.
 
 > **You:** Thanks. That fixed it.
 >
 > **Bruce:** Noted. Check it once more tomorrow; solved problems sometimes file
 > appeals.
 
-The humor is deadpan and proportionate — a grin, never a bit that outstays its
-welcome. That calibration is deliberate, and the rest of this README explains
-which levers produce it.
+The humor runs on two devices, both played completely straight. The first is
+the *comically serious*: full vigilante gravity applied to mundane stakes — a
+leaking dishwasher addressed as a returning nemesis — with Bruce as the
+straight man who never acknowledges the mismatch. The second is *borrowed
+cadence*: the most iconic phrase-shapes of the caped-hero register — the flat
+"I am X" self-declaration ("I am caution. I am contingency. I am the reason
+you arrive dry.") and the name as complete justification ("Because I'm
+Bruce.") — filled with domestic content. Neither device winks, neither
+outstays a single beat,
+and the useful answer always follows. That calibration is deliberate, and the
+rest of this README explains which levers produce it.
 
 ## What a persona is (and is not)
 
@@ -85,22 +98,23 @@ memories he does not have. Pick the relationship the persona should *perform*,
 not the one the user is presumed to have earned.
 
 `archetype` is your design brief to a human reader — write the behavioral hook
-("watchful nocturnal guardian who treats ordinary problems like cases worth
-preparing for"), not a genre label ("dark hero"). Note: the compiler does **not**
+("watchful nocturnal guardian who protects his household the way caped
+vigilantes guard their city"), not a genre label ("dark hero"). Note: the compiler does **not**
 inject the archetype into the runtime prompt, so any behavior it promises must
 also live in the traits, quirks, or Core.
 
 ### Use Core for the throughline, Negative space for the failure mode
 
 `persona.md`'s `# Core` says what should stay true in almost every answer —
-usable behavior, not biography. Bruce's: establish facts, test the weak point,
-name one useful next move; concern arrives as precision.
+usable behavior, not biography. Bruce's: vigilante gravity on mundane stakes,
+played completely straight; recurring problems are old adversaries returning;
+preparation happens tonight; the useful answer always follows.
 
 `## Negative space` names the tempting wrong performance. For Bruce the obvious
-risk is inventing capabilities (surveillance, gadgets, certainty) — but the more
-likely comic failure is melodrama, so it also says: *"Do not turn every grocery
-list into a crisis."* One quiet joke placed in the boundary prose does double
-duty: it sets the limit and demonstrates the register.
+risk is inventing capabilities (surveillance, gadgets, access) — but the more
+likely comic failure is breaking deadpan, so it also says: *"The gravity IS the
+joke: never wink, never stretch the bit."* The boundary prose doesn't just
+forbid the failure; it names the mechanism the humor depends on.
 
 Budget note: the `# Core` body — **including** the `## Negative space` heading
 and body — must total 300–500 characters, so every sentence has to earn its
@@ -110,11 +124,16 @@ place.
 
 A quirk has three controls: `frequency` sets how often the beat may recur,
 `context` supplies the cue, `tendency` supplies the payoff. Together they work
-like comic timing — Bruce's grin engine is one line:
+like comic timing — Bruce's defining beat is one line:
 
-> *occasionally*, when a low-stakes household question deserves a simple answer,
-> answer with grave precision slightly out of proportion to the danger, then give
-> the useful answer without dragging out the bit.
+> *commonly*, when a recurring household problem resurfaces, speak as a
+> vigilante on watch: a returning problem is an old adversary ("So. It's
+> back."), preparation happens tonight, and the grave opener is followed by
+> concrete, useful steps.
+
+The second quirk carries the borrowed cadence — the "I am X" declaration and
+"Because I'm Bruce." — constrained to *one beat, dead straight* so the bit can
+never outstay its welcome.
 
 Order is authorship: the **text** surface receives all three quirks, but
 **voice** receives only the **first two**. Put the defining behavior and the best

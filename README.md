@@ -165,6 +165,9 @@ pack/examples.yaml     # paired demonstrations of desired and rejected voice
 
 ## Installing
 
+Needs Casa 0.347.14 or newer, where any of the three residents can wear it. An
+older Casa installs it and then refuses to apply it.
+
 Ask Casa's configurator in chat, naming the version (a persona install does not
 pick the latest one for you):
 
@@ -176,9 +179,9 @@ that tap. Once installed, apply it:
 > Apply the bruce persona to the concierge
 
 Applying to a resident takes effect on its next restart, which starts that
-resident's conversations fresh; applying to an installed specialist takes effect
-on an agents reload, for new conversations. It is a genuine identity change, not a
-costume.
+resident's conversations fresh. An installed specialist can wear it only if its
+role lists this pack; there it takes effect on an agents reload, for new
+conversations. It is a genuine identity change, not a costume.
 
 ## License
 

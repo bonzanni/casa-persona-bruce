@@ -165,18 +165,20 @@ pack/examples.yaml     # paired demonstrations of desired and rejected voice
 
 ## Installing
 
-Ask Casa's configurator in chat, e.g.:
+Ask Casa's configurator in chat, naming the version (a persona install does not
+pick the latest one for you):
 
-> Install the persona from bonzanni/casa-persona-bruce
+> Install the persona from bonzanni/casa-persona-bruce at v0.3.0
 
 You will get an Approve/Deny prompt in your operator DM; nothing installs without
 that tap. Once installed, apply it:
 
 > Apply the bruce persona to the concierge
 
-Applying to a resident takes effect on the next restart; applying to an installed
-specialist takes effect on an agents reload. Swapping a persona rolls the agent's
-session epoch — it is a genuine identity change, not a costume.
+Applying to a resident takes effect on its next restart, which starts that
+resident's conversations fresh; applying to an installed specialist takes effect
+on an agents reload, for new conversations. It is a genuine identity change, not a
+costume.
 
 ## License
 
